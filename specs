@@ -10,6 +10,13 @@ output: 1
 
 This test will take one letter with the lowest point value.
 
+Test 1.5
+
+input: aa
+output: 2
+
+This test will take two of the same letter with the lowest point value and return the sum of the two.
+
 Test 2
 
 input: at

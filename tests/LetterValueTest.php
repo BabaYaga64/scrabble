@@ -23,7 +23,7 @@
         {
             //Arrange
             $testTwoValues = new LetterValue;
-            $input = "at";
+            $input = "aa";
 
             //Act
             $result = $testTwoValues->assignLetterValue($input);
@@ -33,7 +33,34 @@
             $this->assertEquals(2, $result);
         }
 
+        function test_DifferentLetters()
+        {
+            //Arrange
+            $testDifferentLetters = new LetterValue;
+            $input = "at";
 
+            //Act
+            $result = $testDifferentLetters->assignLetterValue($input);
+
+
+            //Assert
+            $this->assertEquals(2, $result);
+        }
+
+
+        function test_TwoPointValue()
+        {
+            //Arrange
+            $testTwoPointValue = new LetterValue;
+            $input = "d";
+
+            //Act
+            $result = $testTwoPointValue->assignLetterValue($input);
+
+
+            //Assert
+            $this->assertEquals(2, $result);
+        }
     }
 
 ?>
