@@ -18,8 +18,22 @@
             $this->assertEquals(1, $result);
 
         }
+
+        function test_TwoValueAssignments()
+        {
+            //Arrange
+            $testTwoValues = new LetterValue;
+            $input = "at";
+
+            //Act
+            $result = $testTwoValues->assignLetterValue($input);
+
+
+            //Assert
+            $this->assertEquals(2, $result);
+        }
+
+
     }
-
-
 
 ?>
