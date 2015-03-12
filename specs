@@ -1,0 +1,36 @@
+Scrabble
+
+Test 1
+
+input: a
+output: 1
+
+If input is a, then return 1. Assign a to a value of 1.
+
+Test 2
+
+input: at
+output: at = 2
+
+If input is at, then return 2. Assign a value of 2 to word at.
+
+Test 3
+
+input: d
+output: 2
+
+This test will take one input "d" and return "2".
+
+Test 4
+
+input: da
+output: 3
+
+This test will take input of two letters, assign a score to each letter and return the total.
+
+Test 5
+
+input: dab
+output: 6
+
+This will test take an input of three letters, assign a score to each letter and return the total.
