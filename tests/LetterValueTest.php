@@ -1,6 +1,6 @@
 <?php
 
-    require_once "src/LetterValue.php"
+    require_once "src/LetterValue.php";
 
     class LetterValueTest extends PHPUnit_Framework_TestCase
     {
@@ -9,10 +9,10 @@
 
             //Arrange
             $test_LetterValue = new LetterValue;
-            $input = "a"
+            $input = "a";
 
             //Act
-            $result = $test_LetterValue->assignLetterValue($input)
+            $result = $test_LetterValue->assignLetterValue($input);
 
             //Assert
             $this->assertEquals(1, $result);
