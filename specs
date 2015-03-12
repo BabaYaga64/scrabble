@@ -5,30 +5,37 @@ Test 1
 input: a
 output: 1
 
-If input is a, then return 1. Assign a to a value of 1.
+This test will take one letter with the lowest point value.
 
 Test 2
 
 input: at
 output: at = 2
 
-If input is at, then return 2. Assign a value of 2 to word at.
+This test will take two letters that are also single point letters and add them.
 
 Test 3
 
 input: d
 output: 2
 
-This test will take one input "d" and return "2".
+This test will take one letter with the next highest point value.
 
 Test 4
 
 input: da
 output: 3
 
-This test will take input of two letters, assign a score to each letter and return the total.
+This test will take input of two letters with different point values, the lowset two point values, assign a score to each letter and return the total.
 
 Test 5
+
+input: dad
+output: 5
+
+This will test take an input of three letters, assign a score to each letter and return the total.
+
+Test 6
 
 input: dab
 output: 6
