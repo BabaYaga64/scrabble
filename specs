@@ -1,5 +1,8 @@
 Scrabble
 
+$word input from user
+$score output tothe user
+
 Test 1
 
 input: a
