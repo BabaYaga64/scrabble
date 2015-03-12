@@ -52,14 +52,42 @@
         {
             //Arrange
             $testTwoPointValue = new LetterValue;
-            $input = "d";
+            $input = "dad";
 
             //Act
             $result = $testTwoPointValue->assignLetterValue($input);
 
 
             //Assert
-            $this->assertEquals(2, $result);
+            $this->assertEquals(5, $result);
+        }
+
+        function test_ThreePointValue()
+        {
+            //Arrange
+            $testThreePointValue = new LetterValue;
+            $input = "dab";
+
+            //Act
+            $result = $testThreePointValue->assignLetterValue($input);
+
+
+            //Assert
+            $this->assertEquals(6, $result);
+        }
+
+        function test_LastPointValue()
+        {
+            //Arrange
+            $testLastPointValue = new LetterValue;
+            $input = "qzjx";
+
+            //Act
+            $result = $testLastPointValue->assignLetterValue($input);
+
+
+            //Assert
+            $this->assertEquals(36, $result);
         }
     }
 

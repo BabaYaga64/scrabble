@@ -3,49 +3,49 @@ Scrabble
 $word input from user
 $score output tothe user
 
-Test 1
+-Test 1
 
 input: a
 output: 1
 
 This test will take one letter with the lowest point value.
 
-Test 1.5
+-Test 1.5
 
 input: aa
 output: 2
 
 This test will take two of the same letter with the lowest point value and return the sum of the two.
 
-Test 2
+-Test 2
 
 input: at
 output: at = 2
 
 This test will take two letters that are also single point letters and add them.
 
-Test 3
+-Test 3
 
 input: d
 output: 2
 
 This test will take one letter with the next highest point value.
 
-Test 4
+-Test 4
 
 input: da
 output: 3
 
 This test will take input of two letters with different point values, the lowset two point values, assign a score to each letter and return the total.
 
-Test 5
+-Test 5
 
 input: dad
 output: 5
 
 This will test take an input of three letters, assign a score to each letter and return the total.
 
-Test 6
+-Test 6
 
 input: dab
 output: 6
